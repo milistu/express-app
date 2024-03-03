@@ -3,6 +3,8 @@ version: '3.8'
 services:
   app:
     image: studeni/express-app
+    ports:
+      - 8080:8080
     
   watchtower:
     image: containrrr/watchtower
